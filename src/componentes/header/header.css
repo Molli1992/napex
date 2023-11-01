@@ -1,0 +1,139 @@
+.body-header {
+    width: 100%;
+    height: 100px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.header-container-left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    left: 0px;
+}
+
+.header-container-left img {
+    margin-left: 35px;
+    width: 250px;
+    height: 150px;
+}
+
+.header-container-rigth {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    right: 0px;
+}
+
+.link-header {
+    text-decoration: none;
+    font-size: 15px;
+    color: #2D2E33;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.link-header:hover {
+    color: #DC143C;
+}
+
+.header-container-rigth button {
+    height: 40px;
+    width: 117px;
+    color: #FFFFFF;
+    background-color: #DC143C;
+    border-radius: 100px;
+    padding: 0px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #DC143C;
+}
+
+.header-container-rigth button:hover {
+    color: #DC143C;
+    background-color: #FFFFFF;
+}
+
+.svg-container {
+    display: none;
+}
+
+.svg-container svg:hover {
+    fill: #B7A088;
+}
+
+.header-container-responsive {
+    position: absolute;
+    width: 100%;
+    background-color: #FFF;
+    height: 81vh;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    z-index: 999;
+}
+
+.container-link-responsive {
+    display: grid;
+    height: 60%;
+    width: 95%;
+}
+
+.link-header-responsive {
+    text-decoration: none;
+    font-size: 14px;
+    color: #2D2E33;
+    cursor: pointer;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+}
+
+.link-header-responsive:hover {
+    color: #DC143C;
+}
+
+.container-link-responsive button {
+    height: 40px;
+    width: 117px;
+    color: #FFFFFF;
+    background-color: #DC143C;
+    border-radius: 100px;
+    padding: 0px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #DC143C;
+}
+
+.container-link-responsive button:hover {
+    color: #DC143C;
+    background-color: #FFFFFF;
+}
+
+.active {
+    color: #DC143C;
+    font-weight: bold;
+}
+
+
+@media (max-width: 980px) {
+
+    .header-container-left img {
+        margin-left: -30px;
+    }
+
+
+    .header-container-rigth {
+        display: none;
+    }
+
+    .svg-container {
+        display: flex;
+        position: absolute;
+        right: 30px;
+        cursor: pointer;
+    }
+
+}
