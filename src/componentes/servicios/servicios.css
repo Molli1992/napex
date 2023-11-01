@@ -1,14 +1,14 @@
-.body-servicios{
+.body-servicios {
     width: 100%;
     display: block;
 }
 
-.img-servicios{
+.img-servicios {
     width: 100%;
     height: 244px;
 }
 
-.container-texts-servicios{
+.container-texts-servicios {
     margin-top: 50px;
     display: block;
     width: 450px;
@@ -16,25 +16,25 @@
     margin-bottom: 70px;
 }
 
-.container-texts-servicios svg{
+.container-texts-servicios svg {
     width: 60px;
     height: 60px;
-    fill: #ff8000;
+    fill: #DC143C;
     margin-bottom: 15px;
 }
 
-.container-texts-servicios h1{
+.container-texts-servicios h1 {
     font-size: 45px;
     color: #2D2E33;
     margin-bottom: 25px;
 }
 
-.container-texts-servicios text{
+.container-texts-servicios text {
     font-size: 20px;
     color: #2D2E33;
 }
 
-.container-texts-servicios-2{
+.container-texts-servicios-2 {
     margin-top: 50px;
     display: block;
     width: 450px;
@@ -42,41 +42,41 @@
     margin-bottom: 70px;
 }
 
-.container-texts-servicios-2 h3{
+.container-texts-servicios-2 h3 {
     font-size: 56px;
-    color: #ff8000;
+    color: #DC143C;
     margin-bottom: 15px;
 }
 
-.container-texts-servicios-2 h1{
+.container-texts-servicios-2 h1 {
     font-size: 24px;
     color: #2D2E33;
     margin-bottom: 20px;
 }
 
-.container-texts-servicios-2 text{
+.container-texts-servicios-2 text {
     font-size: 15px;
     color: #6C6D74;
     line-height: 1.8em;
 }
 
-.container-text-margin-servicios{
+.container-text-margin-servicios {
     margin-bottom: 20px;
 }
 
-.container-flex-servicios{
+.container-flex-servicios {
     width: 100%;
     display: flex;
 }
 
 @media (max-width: 1100px) {
 
-    .container-texts-servicios{
+    .container-texts-servicios {
         margin-left: 50px;
     }
 
-    
-    .container-texts-servicios-2{
+
+    .container-texts-servicios-2 {
         margin-left: 50px;
     }
 
@@ -84,12 +84,12 @@
 
 @media (max-width: 1050px) {
 
-    .container-texts-servicios{
+    .container-texts-servicios {
         margin-left: 10px;
     }
 
-    
-    .container-texts-servicios-2{
+
+    .container-texts-servicios-2 {
         margin-left: 10px;
     }
 
@@ -97,7 +97,7 @@
 
 @media (max-width: 955px) {
 
-    .container-flex-servicios{
+    .container-flex-servicios {
         display: block;
     }
 
@@ -105,11 +105,11 @@
 
 @media (max-width: 500px) {
 
-    .container-texts-servicios{
+    .container-texts-servicios {
         width: 95%;
     }
 
-    .container-texts-servicios-2{
+    .container-texts-servicios-2 {
         width: 95%;
     }
 
