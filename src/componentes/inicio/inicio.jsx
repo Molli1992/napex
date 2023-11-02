@@ -60,7 +60,7 @@ function Inicio() {
       <div className="container-inicio-1">
         <div className="container-inicio-1-container">
           <div className="container-inicio-1-container-text">
-            <h1>Vector Soluciones</h1>
+            <h1>Napex</h1>
             <h3>Solución en cobranza</h3>
             <div>
               <text>
